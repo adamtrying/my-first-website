@@ -1,0 +1,13 @@
+h1 {
+    color: aqua;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    color: aqua;
+    padding: 0rem 10rem 0rem 10rem;
+}
+#logo {
+    padding-right: 35rem;
+}
