@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+    box-sizing: border-box;
+    outline: solid 1px red;
+    font-family: inter, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    color: #0f1214;
+  }
+  img {
+    width: 100%;
+    object-fit: cover;
+    display: blocks;
+  }
+  
+  header {
+    height: 100vh;
+  }
+  body {
+    background-color: #f1f1f151;
+  }
+  ul {
+    list-style-type: none;
+  }
+  li {
+    margin: 1.5rem;
+  }
+  #logo {
+    font-family: Krona One, sans-serif;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+  }
+  .navigation {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0rem 8rem;
+  }
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .main-claim-image {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    max-width: 100%;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 5rem;
+  }
+  .main-claim {
+    font-family: Krona One, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: 0.12rem;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  
+    /* padding: 9rem; */
+  }
+  .main-image {
+    /* padding: 9rem 9rem 0rem 9rem; */
+    grid-column-start: 8;
+    grid-column-end: 13;
+    /* min-width: 465px; */
+    min-height: 100%;
+    min-width: 500px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+  }
+  .text-bellow-claim {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 2;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+  .order-button {
+    grid-column-start: 1; 
+    grid-row-start: 2; 
+    border: none;
+    background-color: #0f1214;
+    color: #f1f1f1;
+    font-weight: 300;
+    border-radius: 200px;
+    padding: 0.6rem 2rem;
+    white-space: nowrap;
+    justify-self: start;
+    align-self: start;
+    /* align-self: end; */
+  }
+  
+  button:hover {
+    background-color: #f0f0f0;
+    border: solid 1px #0f1214;
+    cursor: pointer;
+  }
+  .section-about-us {
+    margin: 5rem 9rem 0rem 9rem;
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+  }
+  h2 {
+    font-family: Krona One, sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    letter-spacing: 0.12rem;
+    margin-bottom: 2rem;
+  }
+  .text-about-us {
+    flex: 40%;
+    margin: 0rem 6rem 0rem 0rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  .interier-photo {
+    max-height: 100%;
+  }
+  
